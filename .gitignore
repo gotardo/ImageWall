@@ -4,6 +4,8 @@
 /var/*
 !/var/cache
 /var/cache/*
+!/app/cache
+/app/cache/*
 !var/cache/.gitkeep
 /var/dump
 !/var/logs

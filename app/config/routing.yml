@@ -1,3 +1,15 @@
+image_wall_api:
+    resource: "@ImageWallApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
+image_wall_core:
+    resource: "@ImageWallCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+image_wall_web:
+    resource: "@ImageWallWebBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
