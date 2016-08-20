@@ -24,7 +24,12 @@
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",
-        "symfony/phpunit-bridge": "~2.7"
+        "symfony/phpunit-bridge": "~2.7",
+        "fzaninotto/Faker": "@stable",
+        "phpunit/phpunit": "5.5",
+        "squizlabs/php_codesniffer": "2.5.*",
+        "phpmd/phpmd" : "@stable",
+        "sebastian/phpcpd": "*"
     },
     "scripts": {
         "post-install-cmd": [
