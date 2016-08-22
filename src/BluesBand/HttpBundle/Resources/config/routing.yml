@@ -1,0 +1,3 @@
+blues_band_http_homepage:
+    path:     /
+    defaults: { _controller: BluesBandHttpBundle:Default:index }
