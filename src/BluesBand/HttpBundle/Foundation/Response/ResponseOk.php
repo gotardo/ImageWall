@@ -1,7 +1,6 @@
 <?php
 
 namespace BluesBand\HttpBundle\Foundation\Response;
-
 /**
  * Class ResponseOk.
  *

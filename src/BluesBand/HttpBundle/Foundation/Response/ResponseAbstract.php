@@ -46,7 +46,7 @@ abstract class ResponseAbstract extends JsonResponse implements IResponse
      *
      * @return int The response code
      */
-    public function getKResponseCode()
+    public function getResponseCode()
     {
         return $this->responseCode;
     }
@@ -56,7 +56,7 @@ abstract class ResponseAbstract extends JsonResponse implements IResponse
      *
      * @return string the response message
      */
-    public function getKResponseMessage()
+    public function getResponseMessage()
     {
         return $this->responseMessage;
     }
