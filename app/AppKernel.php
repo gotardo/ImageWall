@@ -18,6 +18,8 @@ class AppKernel extends Kernel
             new ImageWall\WebBundle\ImageWallWebBundle(),
             new ImageWall\CoreBundle\ImageWallCoreBundle(),
             new ImageWall\ApiBundle\ImageWallApiBundle(),
+            new BluesBand\HttpBundle\BluesBandHttpBundle(),
+            new BluesBand\PersistenceBundle\BluesBandPersistenceBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

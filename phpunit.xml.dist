@@ -35,6 +35,12 @@
         <testsuite name="web">
             <directory>src/ImageWall/WebBundle/Tests</directory>
         </testsuite>
+        <testsuite name="blues-band-http">
+            <directory>src/BluesBand/HttpBundle</directory>
+        </testsuite>
+        <testsuite name="blues-band-persistence">
+            <directory>src/BluesBand/HttpBundle</directory>
+        </testsuite>
     </testsuites>
 
     <filter>
